@@ -1,1 +1,122 @@
 ciao io sono Nimu 
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+ input:focus{background-color: honeydew;}
+    button{background-color: navy;
+          color: white;
+          cursor: pointer; }
+  
+  p{background-color: red;
+           color: white;"}
+</style>
+</head>
+<center>
+<body style="background-color: 	honeydew;">
+  <h1 style="text-decoration: underline ;
+    text-align: center;
+    box-shadow: 4px 4px 7px;
+    background-color: seashell;"
+    >Sign in form</h1>
+  
+<fieldset style="background-color:	seashell 
+ ; width: 600px;">
+
+<legend>please provide your details </legend>
+    
+<form><center>
+  
+  
+  <label><p>Name</p></label> 
+<input type="text" id="Name"> <br> <br>
+
+   
+  <label>
+     <p>Surname</p>
+   </label>
+<input type="text" id="Surname" > <br> <br>
+
+  
+  <label>
+    <p>email Id</p>
+   </label> 
+<input type="text" id="email"> <br> <br> <br> <br>   
+   
+
+
+
+  
+  <label>
+    <p>
+      date of birth
+    </p>
+    </label> 
+  
+  <select name="month" id="month">
+  <option value="maths">month</option>
+  </select>
+  <input type="number" id="s"> <br> <br>
+
+     
+  <select name="date" id="date">
+  <option value="date">date</option>
+  </select>
+  <input type="number" id=“s“> <br> <br>
+
+  
+  <select name="year" id="year">
+  <option value="year">year</option>
+  </select>
+  <input type="number" id="s"> <br> <br> <br> <br>
+
+
+  
+  
+<p>Select your gender</p>
+  
+      <input type="radio" id="gender" name="gender">male <br> 
+  
+      <input type="radio" id="gender1" name="gender">female <br> 
+  
+      <input type="radio" id="gender2" name="gender"> other <br> <br>
+   
+
+
+      <p> Create your Password</p>
+<input type="password"> <br/> <br/>
+  
+      <p> Confirm your Password</p>
+<input type="password"> <br/> <br/>
+
+
+ <button type="submit">
+    submit
+    </button>
+
+</center>
+  
+</form>
+</fieldset>
+</center>
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
